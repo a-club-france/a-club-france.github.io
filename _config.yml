@@ -1,3 +1,11 @@
-theme: jekyll-theme-architect
+
+# Site settings
+remote_theme:: jekyll-theme-clean-blog
 title: А-Клуб
 description: Bесёлый отдых и незабываемые впечатления! Уникальная возможность, в первую очередь для детей, поговорить по-русски на французской земле!
+cover: assets/images/cover.png
+logo: assets/images/logo.png
+favicon: assets/favicon/favicon-32x32.png
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://a-club-france.github.io/" # the base hostname & protocol for your site
+timezone: 'Europe/Paris'

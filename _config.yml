@@ -46,15 +46,15 @@ plugins:
 
 
 # Settings for rake task
-#safe: False
-#lsi: False
-#username: samanyougarg #github username
-#repo: hanuman #github repository
-#branch: master #branch
-#relative_source: ../hanuman/ #source directory
-#destination: ../hanuman-pages/ #destination directory
-#production_url:  https://samanyougarg.com/
-#source_url:  https://github.com/samanyougarg/hanuman #source repository url
+safe: False
+lsi: False
+username: a-club-france #github username
+repo: a-club-france #github repository
+branch: master #branch
+relative_source: ../a-club-france/ #source directory
+destination: ../a-club-france-pages/ #destination directory
+production_url:  https://a-club-france.github.io/
+source_url:  https://github.com/a-club-france/a-club-france.github.io #source repository url
 
 exclude:
   - README.md

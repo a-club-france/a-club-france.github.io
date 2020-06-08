@@ -33,8 +33,6 @@
           $.ajax({
             url: "//formspree.io/{{ site.formspreeApi }}",
             type: "POST",
-            crossDomain: true,
-            dataType: 'jsonp',
             data: {
               name: name,
               phone: phone,

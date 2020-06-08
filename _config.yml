@@ -10,6 +10,7 @@ url: "https://a-club-france.github.io/" # the base hostname & protocol for your 
 timezone: 'Europe/Paris'
 email: kirill.vankov@gmail.com # artclub.grenoble@gmail.com
 author: А-Клуб
+formspreeApi: mnqgdkkj
 
 # Social Profiles
 #twitter_username:

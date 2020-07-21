@@ -18,7 +18,7 @@ layout: default
                 {% if page.subtitle %}
                 <h2 class="subheading">{{ page.subtitle }}</h2>
                 {% endif %}
-                <span class="meta" lang="ru-RU">Дата публикации {{ page.date | date: '%B %d, %Y' }}</span>
+                <span class="meta" lang="ru-RU">Дата публикации {{ page.date | date: '%-d/%-m/%Y' }}</span>
             </div>
         </div>
     </div>
@@ -30,9 +30,7 @@ layout: default
         <div class="col-lg-8 col-md-10 mx-auto">
             {{ content }}
             <hr>
-
             <div class="clearfix">
-
                 {% if page.previous.url %}
                 <a class="btn btn-primary float-left"
                    href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
@@ -50,7 +48,6 @@ layout: default
                    title="{{ page.next.title }}">
                     Следующая<span class="d-none d-md-inline"> публикация</span> &rarr;</a>
                 {% endif %}
-
             </div>
         </div>
     </div>

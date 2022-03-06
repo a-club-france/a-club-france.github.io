@@ -8,7 +8,7 @@ favicon: assets/favicon/favicon-32x32.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://a-club-france.github.io/" # the base hostname & protocol for your site
 timezone: 'Europe/Paris'
-email: kirill.vankov@gmail.com # todo : artclub.grenoble@gmail.com
+email: artclub.grenoble@gmail.com
 author: А-Клуб
 formspreeApi: mnqgdkkj
 
